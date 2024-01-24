@@ -1,0 +1,9 @@
+.red-text {
+    color: red;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
