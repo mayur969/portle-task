@@ -32,6 +32,12 @@ function DemoEditor() {
         const blockText = currentBlock.getText();
         const startKey = selection.getStartKey();
         const startOffset = selection.getStartOffset();
+        const styleMap = {
+            'RED_TEXT': {
+              color: 'red',
+            },
+           
+          };
 
         if (char === ' ' && blockText.startsWith('#')) {
 
